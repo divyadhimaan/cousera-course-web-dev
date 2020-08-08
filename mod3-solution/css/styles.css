@@ -100,18 +100,22 @@ position: relative;
   padding:40px 10px 10px 10px;
   /* padding top: 50px; */
 }
+
 #outer a {
   position:absolute;
   bottom: 0;
-  text-align:center;
+  /* text-align:center; */
+      left: 100px;
+      right: 100px;
+      padding: 10px 0 10px 0;
+      width:150px;
+      margin-bottom: 20px;
+
 }
-#outer a span{
-  text-align: center;
-  color: black;
-  font-size: 30px;
-  opacity: .8;
-  bottom: 0;
-}
+/* #outer a:hover {
+  background: #36486b;
+  color:white;
+} */
 h3 {
   position: absolute;
   margin-top: 0;
